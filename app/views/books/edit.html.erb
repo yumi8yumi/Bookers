@@ -35,8 +35,7 @@
 
   </form>
 
-  <a class="link"><%=link_to"Show",update_book_path(@book.id) %></a>
-  <p>|</p>
-  <a class="link"><%=link_to"Back",'/books' %></a>
+  <%=link_to"Show",update_book_path(@book.id) %>
+  | <%=link_to"Back",'/books' %>
 
   <% end %>
